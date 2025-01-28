@@ -1,0 +1,1 @@
+This bug occurs when using the FlatList component in React Native with a large dataset. The issue is that the FlatList renders all items at once, which can cause performance issues and even crashes. The solution is to use the `keyExtractor` prop to provide a unique key for each item. This allows React Native to efficiently update only the necessary items when the data changes.
